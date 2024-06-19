@@ -1,0 +1,95 @@
+@import url("https://fonts.google.com/?query=Avenir");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+
+  --font-avenir-next: "https://fonts.google.com/?query=Avenir";
+
+  --font-size-3xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-2xs: 11px;
+  --font-size-smi: 13px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+
+  --color-gray-100: #1e1f25;
+  --color-gray-200: rgba(255, 255, 255, 0.5);
+  --color-gray-300: rgba(255, 255, 255, 0.08);
+  --color-royalblue: #307bf4;
+  --color-lightslategray-100: #9598ae;
+  --color-lightslategray-200: #84849d;
+  --color-lightslategray-300: #79869f;
+  --color-dimgray: #585858;
+  --color-white: #fff;
+  --color-lightcyan: #d9faff;
+  --color-darkslategray: #333540;
+  --color-darkgray-100: #9a949c;
+  --color-mediumseagreen: #29bb89;
+  --color-goldenrod: #f6c059;
+  --color-mediumslateblue: #724ee6;
+  --color-deeppink: #ff0073;
+  --color-gainsboro: #e6e6e6;
+  --color-midnightblue: #0a043c;
+  --gap-xl: 20px;
+  --gap-lg: 18px;
+  --gap-5xs: 8px;
+  --gap-8xs: 5px;
+  --gap-sm: 14px;
+  --gap-10xs: 3px;
+  --gap-7xl: 26px;
+  --gap-xs: 12px;
+  --gap-6xl: 25px;
+  --gap-11xl: 30px;
+  --gap-base: 16px;
+  --gap-7xs: 6px;
+  --gap-11xs: 2px;
+  --gap-mini: 15px;
+  --gap-16xl: 35px;
+  --gap-3xs: 10px;
+  --gap-2xl: 21px;
+  --gap-213xl: 232px;
+  --gap-29xl: 48px;
+  --gap-12xl-8: 31.8px;
+  --gap-xs-7: 11.7px;
+  --padding-11xl: 30px;
+  --padding-12xs: 1px;
+  --padding-5xl: 24px;
+  --padding-mid: 17px;
+  --padding-5xs: 8px;
+  --padding-2xl: 21px;
+  --padding-6xs: 7px;
+  --padding-11xs: 2px;
+  --padding-10xs: 3px;
+  --padding-xl: 20px;
+  --padding-19xl: 38px;
+  --padding-9xs: 4px;
+  --padding-3xs: 10px;
+  --padding-sm: 14px;
+  --padding-4xs: 9px;
+  --padding-7xs: 6px;
+  --padding-lgi: 19px;
+  --padding-9xl: 28px;
+  --padding-17xl: 36px;
+  --padding-base: 16px;
+  --padding-21xl: 40px;
+  --padding-4xl: 23px;
+  --padding-7xl: 26px;
+  --padding-2xs: 11px;
+  --padding-xs-8: 11.8px;
+
+  --br-3xs: 10px;
+  --br-11xs: 2px;
+  --br-25xl: 44px;
+  --br-11xl: 30px;
+  --br-mini: 15px;
+  --br-7xs: 6px;
+  --br-base: 16px;
+  --br-xl: 20px;
+  --br-4xs: 9px;
+}

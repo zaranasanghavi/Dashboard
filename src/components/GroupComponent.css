@@ -1,0 +1,121 @@
+.frame-child13 {
+  width: 211px;
+  height: 165px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.ellipse-div {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-deeppink);
+  z-index: 1;
+}
+.ellipse-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.comment {
+  text-decoration: none;
+  height: 22px;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: inherit;
+  display: inline-block;
+  min-width: 75px;
+  z-index: 1;
+}
+.frame-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.div2,
+.process-model {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  z-index: 1;
+}
+.process-model {
+  align-self: stretch;
+  height: 44px;
+}
+.div2 {
+  font-size: var(--font-size-smi);
+  color: var(--color-mediumseagreen);
+  min-width: 28px;
+}
+.process-model-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frame-child14 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frame-wrapper2 {
+  height: 55px;
+  width: 68.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.frame-parent6,
+.rectangle-parent4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent6 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-13xl);
+}
+.rectangle-parent4 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 207px;
+  max-width: 211px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: "https://fonts.google.com/?query=Avenir";
+}
+@media screen and (max-width: 950px) {
+  .process-model {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .process-model {
+    font-size: var(--font-size-lgi);
+  }
+}

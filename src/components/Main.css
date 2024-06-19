@@ -1,0 +1,426 @@
+.main-child {
+  width: 227px;
+  height: 900px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.layout-child,
+.pondox-icon {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  z-index: 1;
+}
+.layout-child {
+  height: 40px;
+  width: 40px;
+}
+.pondox-icon {
+  align-self: stretch;
+  height: 15.8px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.pondox-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs-8);
+}
+.inner-content,
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.layout {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-xs-7);
+}
+.inner-content {
+  width: 174.5px;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.frame-child9 {
+  height: 46px;
+  width: 197px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  display: none;
+}
+.dashboard,
+.frame-child10 {
+  position: relative;
+  z-index: 1;
+}
+.frame-child10 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.dashboard {
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-family: "https://fonts.google.com/?query=Avenir";
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 74px;
+}
+.dashboard-title,
+.vector-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.vector-group {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-base);
+  background-color: var(--color-royalblue);
+  align-self: stretch;
+  border-radius: var(--br-4xs);
+  flex-direction: row;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.cocolinescan-6,
+.users {
+  position: relative;
+  z-index: 1;
+}
+.cocolinescan-6 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.users {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 37px;
+}
+.stats-row,
+.stats-values {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stats-values {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.stats-row {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.stats-row-child {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+  z-index: 1;
+}
+.schedule {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 62px;
+  z-index: 1;
+}
+.schedule-wrapper,
+.stats-row1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schedule-wrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.stats-row1 {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.income,
+.stats-row-item {
+  position: relative;
+  z-index: 1;
+}
+.stats-row-item {
+  height: 24.3px;
+  width: 24px;
+  min-height: 24px;
+}
+.income {
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 50px;
+}
+.income-wrapper,
+.stats-row2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.income-wrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.stats-row2 {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.saved,
+.stats-row-inner {
+  position: relative;
+  z-index: 1;
+}
+.stats-row-inner {
+  height: 24.3px;
+  width: 24px;
+  min-height: 24px;
+}
+.saved {
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 41px;
+}
+.saved-wrapper,
+.stats-row3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.saved-wrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.stats-row3 {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.frame-child11,
+.settings {
+  position: relative;
+  z-index: 1;
+}
+.frame-child11 {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.settings {
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 54px;
+}
+.frame-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.stats-grid {
+  margin: 0;
+  flex-direction: column;
+  gap: var(--gap-12xl-8);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray-200);
+  font-family: "https://fonts.google.com/?query=Avenir";
+}
+.content-wrapper,
+.right-sidebar,
+.stats,
+.stats-grid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stats {
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+}
+.content-wrapper,
+.right-sidebar {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.content-wrapper {
+  gap: var(--gap-29xl);
+}
+.bg-style-child,
+.mask-group-child {
+  width: 179px;
+  position: relative;
+  box-shadow: 0 24px 72px rgba(10, 4, 60, 0.12);
+  border-radius: var(--br-base);
+  background-color: var(--color-royalblue);
+  display: none;
+}
+.bg-style-child {
+  align-self: stretch;
+}
+.mask-group-child {
+  height: 189px;
+}
+.tittle,
+.upgrade-now-for {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.tittle {
+  align-self: stretch;
+  line-height: 24px;
+  z-index: 3;
+}
+.upgrade-now-for {
+  flex: 1;
+  line-height: 16px;
+  z-index: 2;
+}
+.upgrade-message {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--font-size-xs);
+}
+.title-container,
+.title-wrapper,
+.upgrade-message {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.title-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+}
+.button-child {
+  height: 32px;
+  width: 139px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.upgrade-plan {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.02em;
+  line-height: 12px;
+  font-weight: 500;
+  font-family: "https://fonts.google.com/?query=Avenir";
+  color: var(--color-midnightblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-xl);
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 3;
+}
+.button:hover {
+  background-color: var(--color-gainsboro);
+}
+.background,
+.bg-style,
+.button,
+.mask-group {
+  display: flex;
+  align-items: flex-start;
+}
+.mask-group {
+  flex: 1;
+  box-shadow: 0 24px 72px rgba(10, 4, 60, 0.12);
+  border-radius: var(--br-base);
+  background-color: var(--color-royalblue);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-xl);
+  gap: var(--gap-mini);
+  z-index: 1;
+}
+.background,
+.bg-style {
+  flex-direction: row;
+}
+.bg-style {
+  flex: 1;
+  box-shadow: 0 24px 72px rgba(10, 4, 60, 0.12);
+  border-radius: var(--br-base);
+  background-color: var(--color-royalblue);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.background {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 var(--padding-3xs);
+}
+.main {
+  width: 227px;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-base) var(--padding-21xl)
+    var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-213xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family:"https://fonts.google.com/?query=Avenir";
+}
+@media screen and (max-width: 950px) {
+  .main {
+    display: none;
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

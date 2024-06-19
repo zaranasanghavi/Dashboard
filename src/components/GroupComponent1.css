@@ -1,0 +1,131 @@
+.frame-child12 {
+  width: 211px;
+  height: 165px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-royalblue);
+  box-sizing: border-box;
+  display: none;
+}
+.follower-icon {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen);
+  z-index: 1;
+}
+.follower-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.total-followers {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: inherit;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 1;
+}
+.follower-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.k6 {
+  height: 44px;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 78px;
+}
+.div1,
+.k6,
+.trend-icon {
+  position: relative;
+  z-index: 1;
+}
+.div1 {
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 47px;
+}
+.trend-icon {
+  width: 10px;
+  height: 6px;
+}
+.follower-numbers,
+.follower-trends,
+.trend-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.trend-icons {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.follower-numbers,
+.follower-trends {
+  gap: var(--gap-8xs);
+}
+.follower-trends {
+  flex-direction: row;
+  font-size: var(--font-size-smi);
+  color: var(--color-mediumseagreen);
+}
+.follower-numbers {
+  flex: 1;
+  flex-direction: column;
+}
+.follower-values-child {
+  height: 54.5px;
+  width: 67px;
+  position: relative;
+  z-index: 1;
+}
+.follower-values,
+.rectangle-parent3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.follower-values {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-7xl);
+  font-size: var(--font-size-13xl);
+}
+.rectangle-parent3 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-royalblue);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xl) var(--padding-lgi);
+  gap: var(--gap-base);
+  min-width: 207px;
+  max-width: 211px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: "https://fonts.google.com/?query=Avenir";
+}
+@media screen and (max-width: 950px) {
+  .k6 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .k6 {
+    font-size: var(--font-size-lgi);
+  }
+}
